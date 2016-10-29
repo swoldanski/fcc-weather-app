@@ -9,6 +9,7 @@ var image = function info(url, alt, element) {
     var image = window.document.getElementById(id);
     image.src = url;
     image.alt = alt;
+    image.title = alt;
 };
 
 var reqListener = function reqListener () {
