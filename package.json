@@ -12,5 +12,13 @@
     "app"
   ],
   "author": "swoldanski",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swoldanski/fcc-weather-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swoldanski/fcc-weather-app/issues"
+  },
+  "homepage": "https://github.com/swoldanski/fcc-weather-app#readme"
 }

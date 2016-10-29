@@ -33,7 +33,7 @@ var reqListener = function reqListener () {
 
 var getWheatherInfo = function getWheatherInfo(lat, lon, units){
     var units = units || "metric";
-    info(lat + ', ' + lon);
+    info("If nothing happens - allow insecure content in browser");
     var oReq = new XMLHttpRequest();
     oReq.addEventListener("load", reqListener);
     oReq.open("GET", "http://api.openweathermap.org/data/2.5/weather?lat="
